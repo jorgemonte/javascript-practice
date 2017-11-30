@@ -1,0 +1,64 @@
+*{margin: 0; padding: 0; box-sizing: border-box; }
+
+body{background-color: #fff; color:#343434;font-family: 'Poppins', sans-serif;}
+html{width:100%; height: 100%; font-size: 16px;}
+ul{list-style: none;}
+a{color:inherit;text-decoration: none;}
+
+
+h1,h2,h3,h4,h5,h6,p{line-height:1.5em;}
+
+/* POSITIONING ELEMENTS */
+/* Flex, Margin, Padding */
+
+.flex, .flex-col, .flex-center-h, .flex-center-v, .flex-center,
+.flex-col-center { display: flex; }
+.flex-col, .flex-col-center{flex-direction: column;}
+.flex-center-h,.flex-center,.flex-col-center{
+	justify-content: center; }
+.flex-center-v, .flex-center, .flex-col-center{
+	align-items: center; }
+
+.mb-10{margin-bottom: 10px;} .mb-20{margin-bottom: 20px;} .mb-30{margin-bottom: 30px;}
+.txt-center{	text-align: center;}
+.section-sep{	padding: 30px;  }
+.pad-v20{padding-top:20px; padding-bottom:20px;}
+.pad-v10{padding-top:10px; padding-bottom:10px;}
+.pad-v50{padding-top:50px; padding-bottom:50px;}
+.pad-v150{padding-top:150px; padding-bottom:150px;}
+
+.underline{text-decoration: underline;}
+
+/* COLORS and SHADOWS*/
+
+.white-bg{ background-color: #fff; } .white-txt{ color: #fff; }
+.pale-bg{ background-color: #fafbfd} .pale-txt{ color: #fafbfd; }
+
+.grey-bg{background-color:#a8b4ca;} .grey-txt{color:#a8b4ca;}
+.grey2-bg{background-color:#DBE2EF;} .grey2-txt{color:#DBE2EF;}
+.darkgrey-bg{background-color:#9ba1ab;} .darkgrey-txt{color:#9ba1ab;}
+.dark-bg{ background-color: #343434; } .dark-txt{ color: #343434; }
+.dark2-bg{ background-color: #24292E; } .dark2-txt{ color: #24292E; }
+
+.black-bg{ background-color: #000; } .black-txt{ color: #000; }
+
+
+.blue-bg{ background-color: #3F72AF; } .blue-txt{ color: #3F72AF; }
+
+
+/* EXTRA COLORS - If necessary */
+
+.red-bg{ background-color: #CC4425;} .red-txt{ color: #CC4425;}
+.salmon-bg{ background-color: #C55151;} .salmon-txt{ color: #C55151;}
+.green-txt{color: #6ae88c; } .green-bg{background-color: #6ae88c; }
+.gold-txt{color: #ffd600; } 
+.pink-txt{color: #d7598B; } .pink-bg{background-color: #d7598B; }
+.yellow-txt{color: #fac036;} .yellow-bg{background-color: #fac036;}
+
+.justify{text-align: justify;}
+.shadow-xs{box-shadow: 0 0 3px rgba(44,44,44,0.3);}
+.shadow-sm{box-shadow: 0 0 5px rgba(44,44,44,0.6);}
+.shadow-sm-white{box-shadow: 0 0 5px rgba(255,255,255,0.6);}
+.shadow-md{box-shadow: -1px 1px 15px rgba(30,30,30,0.7);}
+.shadow-lg{box-shadow: -4px 4px 30px 5px rgba(30,30,30,0.4);}
+.shadow-b{box-shadow: 0 1px 3px rgba(44,44,44,0.3);}
