@@ -2,11 +2,10 @@
 
 body{background-color: #fff; color:#343434;font-family: 'Poppins', sans-serif;}
 html{width:100%; height: 100%; font-size: 16px;}
-ul{list-style: none;}
+
 a{color:inherit;text-decoration: none;}
 
 
-h1,h2,h3,h4,h5,h6,p{line-height:1.5em;}
 
 /* POSITIONING ELEMENTS */
 /* Flex, Margin, Padding */
@@ -62,3 +61,26 @@ h1,h2,h3,h4,h5,h6,p{line-height:1.5em;}
 .shadow-md{box-shadow: -1px 1px 15px rgba(30,30,30,0.7);}
 .shadow-lg{box-shadow: -4px 4px 30px 5px rgba(30,30,30,0.4);}
 .shadow-b{box-shadow: 0 1px 3px rgba(44,44,44,0.3);}
+
+
+
+
+
+
+/*   FIRST BLOCK */
+
+
+#panel, #flip {
+	width:80%;
+	min-width:200px;
+	margin:0 auto;
+    padding: 5px;
+    text-align: center;
+    background-color: whitesmoke;
+    border: solid 1px #c3c3c3;
+}
+
+#panel {
+    padding: 50px;
+    display: none;
+}
