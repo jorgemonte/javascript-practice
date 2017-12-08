@@ -5,5 +5,11 @@ $(document).ready(function(){
     });
 
 
+    $("#flip2").click(function(){
+        $("#panel2").slideToggle("slow");
+        $("#panel2p").fadeIn( "slow" );
+    });
+
+
 
 }); //end of the javascript code

@@ -70,7 +70,7 @@ a{color:inherit;text-decoration: none;}
 /*   FIRST BLOCK */
 
 
-#panel, #flip {
+.panel, .flip {
 	width:80%;
 	min-width:200px;
 	margin:0 auto;
@@ -80,7 +80,7 @@ a{color:inherit;text-decoration: none;}
     border: solid 1px #c3c3c3;
 }
 
-#panel {
+.panel {
     padding: 50px;
     display: none;
 }
